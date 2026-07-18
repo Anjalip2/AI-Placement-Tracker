@@ -1,0 +1,14 @@
+[
+    {
+        "name": "ANJU",
+        "usn": "025",
+        "branch": "CS",
+        "cgpa": 8.0
+    },
+    {
+        "name": "MARTIN",
+        "usn": "024",
+        "branch": "AIML",
+        "cgpa": 8.0
+    }
+]

@@ -1,28 +1,20 @@
 from modules.menu import show_menu
+from modules.student import add_student, view_students, search_student, update_student, delete_student
 
 while True:
-    show_menu()
-
-    choice = input("Enter your choice: ")
-
-    if choice == "1":
-        print("Add Student feature coming soon...")
-
-    elif choice == "2":
-        print("View Students feature coming soon...")
-
-    elif choice == "3":
-        print("Search Student feature coming soon...")
-
-    elif choice == "4":
-        print("Update Student feature coming soon...")
-
-    elif choice == "5":
-        print("Delete Student feature coming soon...")
-
-    elif choice == "6":
-        print("Thank you for using AI-Powered Student Placement Tracker.")
+    choice=show_menu()
+    if choice==1:
+        add_student()
+    elif choice==2:
+        view_students()
+    elif choice==3:
+        search_student()
+    elif choice==4:
+        update_student()
+    elif choice==5:
+        delete_student()
+    elif choice==6:
+        print("Thank you.")
         break
-
     else:
-        print("Invalid choice. Please try again.")
+        print("Invalid choice")

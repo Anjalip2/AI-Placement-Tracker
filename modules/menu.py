@@ -1,13 +1,11 @@
 def show_menu():
+   print("\n----------------------AL-Placemenet-Tracker----------------------") 
+   print("1.Add Student")
+   print("2.View Student")
+   print("3.Search Student")
+   print("4.Update Student")
+   print("5.Delete Student")
+   print("6.Exit")
 
-    print("\n====================================================")
-    print("AI-Powered Student Placement Tracker")
-    print("\n====================================================")
-    
-    print("1.add student")
-    print("2.view student")
-    print("3.search student")
-    print("4.update student")
-    print("5.delete student")
-    print("6.exit")
-
+   choice=int(input("Enter your choice: "))
+   return choice
