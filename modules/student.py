@@ -1,9 +1,11 @@
 from modules.database import load_students, save_students
-
+from modules.validation import validate_name,validate_usn, validate_cgpa
 students=load_students()
 
 def add_student():
-
+    if not validate_name(name):
+        print("invalid name")
+        return
     name = input("Enter your name: ")
     usn = input("Enter your usn: ")
     branch = input("Enter your branch: ")
@@ -75,7 +77,7 @@ def delete_student():
             students.remove(student)
 
             save_students(students)
-            
+
             print("\nStudent deleted successfully!")
             return
     print("Student not found.")

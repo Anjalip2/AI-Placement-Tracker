@@ -1,10 +1,28 @@
 # AI-Powered Student Placement Tracker
-A placement preparation and analytics system built using Python.
 
-## Technologies
+## Description
+A Python-based student management system built for placement preparation.
+
+## Features
+- Add Student
+- View Students
+- Search Student
+- Update Student
+- Delete Student
+- JSON Data Storage
+
+## Technologies Used
 - Python
+- JSON
 - Git
 - GitHub
 
-## Status
-Project Iniatialized.
+## Project Structure
+modules/
+data/
+app.py
+
+## Future Improvements
+- MySQL Integration
+- Login System
+- GUI using Tkinter
