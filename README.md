@@ -125,26 +125,20 @@ AI-Placement-Tracker/
 ## 📸 Screenshots
 
 ### 🏠 Dashboard
-
-*(Add `assets/dashboard.png` here)*
-
-```markdown
 ![Dashboard](assets/dashboard.png)
-```
+
+### ➕ Add Student
+![Add Student](assets/add_student.png)
 
 ### 📋 Student Records
+![Student Records](assets/students.png)
 
-```markdown
-![Students](assets/students.png)
-```
+### ✏️ Update Student
+![Update Student](assets/update_student.png)
 
 ### 🤖 Placement Prediction
+![Placement Prediction](assets/prediction.png)
 
-```markdown
-![Prediction](assets/prediction.png)
-```
-
----
 
 ## 🚀 Future Enhancements
 
