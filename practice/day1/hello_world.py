@@ -1,5 +1,0 @@
-print("hello world")
-print("number: ",21)
-print("cgpa: ",8)
-print("branch: "+"cse")
-print("college: "+"mite")

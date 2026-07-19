@@ -3,6 +3,8 @@ import pandas as pd
 import plotly.express as px 
 
 from modules.database import get_connection
+from modules.prediction import placement_prediction
+
 
 st.set_page_config(
     page_title="AI Placement Tracker",
@@ -22,7 +24,8 @@ option = st.sidebar.radio(
         "📋 View Students",
         "🔍 Search Student",
         "✏️ Update Student",
-        "🗑 Delete Student"
+        "🗑 Delete Student",
+        "🤖 Placement Prediction"
     )
 )
 st.sidebar.markdown("---")
@@ -254,6 +257,9 @@ elif option == "🗑 Delete Student":
 
         cursor.close()
         connection.close()
+
+elif option == "🤖 Placement Prediction":
+    placement_prediction()
 
 st.markdown("---")
 st.caption("© 2026 AI-Powered Student Placement Tracker | Developed by Anjali P")
