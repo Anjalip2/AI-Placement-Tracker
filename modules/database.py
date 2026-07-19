@@ -1,13 +1,9 @@
-import json
+import mysql.connector
 
-FILE_NAME = "data/students.json"
-
-def load_students():
-    try:
-        with open(FILE_NAME, "r") as file:
-            return json.load(file)
-    except:
-        return []
-def save_students(students):
-    with open(FILE_NAME, "w") as file:
-        json.dump(students, file, indent=4)
+def get_connection():
+    return mysql.connector.connect (
+        host="localhost",
+        user="root",
+        password="Anjaliprabhakar@123",
+        database="placement_tracker"
+    )
