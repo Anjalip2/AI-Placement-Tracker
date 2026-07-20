@@ -2,7 +2,7 @@
 
 ## 📌 Description
 
-AI-Powered Student Placement Tracker is a web-based application built using **Python, Streamlit, and MySQL**. It helps manage student placement records through an interactive dashboard, supports complete CRUD operations, provides analytics, and includes a rule-based placement prediction feature.
+AI-Powered Student Placement Tracker is a web-based application developed using **Python, Streamlit, and MySQL**. It enables efficient management of student placement records through an interactive web interface. The application supports complete CRUD operations, provides dashboard analytics with visualizations, and includes a rule-based placement prediction feature.
 
 ---
 
@@ -16,11 +16,11 @@ python -m streamlit run streamlit_app.py
 
 ---
 
-## 🖥 Current Interface
+## 🖥️ Current Interface
 
-The project was initially developed as a Python terminal application (`app.py`) to learn CRUD operations and database integration.
+The project was initially developed as a Python terminal application (`app.py`) to understand CRUD operations and database integration.
 
-The current version is a **Streamlit Web Application**, and the main entry point is:
+The current version is a **Streamlit Web Application**, with the main entry point:
 
 ```bash
 python -m streamlit run streamlit_app.py
@@ -77,13 +77,13 @@ python -m streamlit run streamlit_app.py
 git clone https://github.com/Anjalip2/AI-Placement-Tracker.git
 ```
 
-### 2. Navigate to the project
+### 2. Navigate to the project folder
 
 ```bash
 cd AI-Placement-Tracker
 ```
 
-### 3. Install dependencies
+### 3. Install the required dependencies
 
 ```bash
 pip install -r requirements.txt
@@ -104,14 +104,20 @@ AI-Placement-Tracker/
 │
 ├── assets/
 │   ├── dashboard.png
+│   ├── add_student.png
 │   ├── students.png
+│   ├── update_student.png
 │   └── prediction.png
+│
+├── database/
+│   └── placement_tracker.sql
 │
 ├── modules/
 │   ├── database.py
+│   ├── menu.py
+│   ├── prediction.py
 │   ├── student.py
-│   ├── validation.py
-│   └── menu.py
+│   └── validation.py
 │
 ├── app.py
 ├── streamlit_app.py
@@ -125,29 +131,35 @@ AI-Placement-Tracker/
 ## 📸 Screenshots
 
 ### 🏠 Dashboard
+
 ![Dashboard](assets/dashboard.png)
 
 ### ➕ Add Student
+
 ![Add Student](assets/add_student.png)
 
 ### 📋 Student Records
+
 ![Student Records](assets/students.png)
 
 ### ✏️ Update Student
+
 ![Update Student](assets/update_student.png)
 
 ### 🤖 Placement Prediction
+
 ![Placement Prediction](assets/prediction.png)
 
+---
 
 ## 🚀 Future Enhancements
 
 - 🔐 Login Authentication
-- 🤖 Machine Learning-based Placement Prediction
+- 🤖 AI/ML-Based Placement Prediction
 - 📧 Email Notifications
 - ☁️ Cloud Deployment
-- 👤 Student Profile Photos
-- 📱 Responsive Mobile Layout
+- 👤 Student Profile Management
+- 📱 Responsive Mobile-Friendly Interface
 
 ---
 
@@ -155,7 +167,7 @@ AI-Placement-Tracker/
 
 **Anjali P**
 
-- GitHub: https://github.com/Anjalip2
+GitHub: https://github.com/Anjalip2
 
 ---
 
